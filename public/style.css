@@ -1,0 +1,153 @@
+/* ==== RESET
+  ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  font-size: 16px;
+  line-height: 19px;
+  color: #111;
+  font-weight: bold;
+}
+
+/* ==== RESET CONTAINER
+  ====================== */
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* ==== HEADER
+  ======================== */
+.header {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  margin-right: 122.4px;
+}
+
+.header nav {
+  display: inline-block;
+  position: absolute;
+  top: .8vh;
+}
+
+.header a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #111;
+}
+
+.header-menu a:first-child {
+  margin-right: 30px;
+}
+
+/* ==== HERO
+  ================== */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  background-color: #FBDFDB;
+  height: 366px;
+
+  border-radius: 30px;
+  padding-left: 60px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 316px;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.hero-chef {
+  display: grid;
+  justify-content: center;
+}
+
+.hero-chef img {
+  margin-bottom: -64px;
+}
+
+/* ===== Receitas mais acessadas
+  ====================================== */
+.receitas-info {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111;
+}
+
+.receitas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.receita {
+  margin-bottom: 30px;
+}
+
+.receita-imagem {
+  margin-bottom: 20px;
+}
+
+.receita-imagem img {
+  width: 300px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.receita-info-produto p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #111;
+
+}
+
+.receita-info-produto p.receita-nome-criador {
+  font-size: 14px;
+  line-height: 16px;
+  color: #777;
+}
+
+/* ===== Footer
+  ===================== */
+
+.footer {
+  background-color: #EEE;
+  text-align: center;
+  padding: 23px;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #999;
+}

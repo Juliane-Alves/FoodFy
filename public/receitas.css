@@ -1,0 +1,73 @@
+.section-receitas {
+  margin-top: 50px;
+}
+
+/* ==== Modal overlay
+  ========================== */
+.modal-overlay {
+  /* background-color: #000; */
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  /* opacity: 0.6; Herança sendo passada para o filho: modal */
+}
+
+.modal {
+  width: 660px;
+  height: 413px;
+  border-radius: 16px;
+  background-color: rgb(243, 235, 235);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh; /* Refatorar depois */
+  text-align: center;
+}
+
+/* ==== Conteúdo do modal
+  ============================ */
+.modal-image img {
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.modal-info {
+  font-size: 24px;
+  line-height: 28px;
+  color: #111;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+/* Revisitar style.css, configurar o grid, ajustar gap em receitas */
+.receita {
+  cursor: pointer;
+}
+
+.receita-nome-criador {
+  font-size: 18px;
+  line-height: 21px;
+  color: #777;
+}
+
+.close-modal {
+  margin-top: 60px;
+}
+
+.close-modal a {
+  font-size: 16px;
+  font-weight: 19px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* modal ativo
+  ==================== */
+
+.modal-ativo {
+  visibility: visible;
+}
